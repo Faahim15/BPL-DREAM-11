@@ -6,9 +6,9 @@ import Player from "../Player/Player"
 const Players = ({handleSelectedPlayers,selectedPlayers}) => { 
     const [players,setPlayers] = useState([]); 
     useEffect(()=>{
-        axios.get('../../../public/Players.json') 
+        axios.get('/playersInfo.json') 
         .then(response =>setPlayers(response.data)) 
-        .catch(error =>console.error('Something is fishy..',error)) 
+        .catch(error =>console.error('Something is wrong..',error)) 
         
     },[])
   

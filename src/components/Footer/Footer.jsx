@@ -11,11 +11,11 @@ const Footer = () => {
                     background: 'linear-gradient(30deg, transparent 70%, #BFE9F8 100%), linear-gradient(-30deg, transparent 70%, #FBE0B4 100%)'
                         }}
  >
-                    <p className='font-bold md:text-3xl text-xl' >Subscribe to our newsletter</p> 
-                    <span className='md:font-semibold text-[#588c9f] md:text-gray-700 font-light' >Get the latest updates and news write in your inbox</span>
+                    <p className='font-bold md:text-3xl text-sm' >Subscribe to our newsletter</p> 
+                    <span className='md:font-semibold text-[#588c9f] md:text-gray-700 font-light text-[9px]' >Get the latest updates and news write in your inbox</span>
                    <div className='flex  gap-x-1' >
-                   <input type="email" placeholder='Enter your email' className='text-[14px] px-2 py-2 focus:outline outline-[#FBE0B4] outline-2 outline-offset-2 rounded-md md:w-[300px]'/> 
-                   <button type="button" className='border md:border-white rounded px-2 py-2 w-[100px] md:text-white font-semibold border-blue-200'>Subscribe</button>
+                   <input type="email" placeholder='Enter your email' className='text-[12px] px-1 py-1 md:px-2 md:py-2 focus:outline outline-[#FBE0B4] outline-2 outline-offset-2 rounded-md w-full md:w-[300px]'/> 
+                   <button type="button" className='border md:border-white rounded px-2 py-2  w-full md:w-[100px] md:text-white font-semibold border-blue-200 mt-1 md:mt-0'>Subscribe</button>
                    </div>
                     </div>
                 </div> 
